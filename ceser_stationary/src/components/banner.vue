@@ -1,11 +1,10 @@
 <template>
-  <div class="mt-4 mx-4 md:mx-8 lg:mx-auto lg:max-w-6xl">
+  <div class="mt-4 w-full">
     <div
-      class="relative bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg overflow-hidden shadow-lg"
-      :style="{ backgroundImage: `url(${bannerImage})`, backgroundSize: 'cover', backgroundPosition: 'right' }"
-    >
+      class="relative bg-gray-200 overflow-hidden shadow-lg"
+      >
       <!-- Dark overlay for better text readability -->
-      <div class="absolute inset-0 bg-black opacity-20"></div>
+      <div class="absolute inset-0 bg-white opacity-20"></div>
       
       <div class="relative z-10 flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-8 md:py-12">
         <!-- Left Content -->
