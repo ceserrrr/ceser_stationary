@@ -1,12 +1,13 @@
 <template>
   <div class="mt-4 w-full">
     <div
-      class="relative bg-gray-200 overflow-hidden shadow-lg"
+      class="relative overflow-hidden shadow-lg"
+      style="background-color: #F5F2ED;"
       >
       <!-- Dark overlay for better text readability -->
       <div class="absolute inset-0 bg-white opacity-20"></div>
       
-      <div class="relative z-10 flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-8 md:py-12">
+      <div class="relative z-10 flex flex-col md:flex-row items-center justify-between px-8 md:px-16 lg:px-20 py-8 md:py-12">
         <!-- Left Content -->
         <div class="md:w-1/2 mb-6 md:mb-0">
           <!-- Logo -->
